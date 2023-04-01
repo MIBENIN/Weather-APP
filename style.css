@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+}
+
+.container{
+    width:95%;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: skyblue;
+    padding:1em;
+    border-radius: 1em;
+}
+.intro-section,
+.output-section{
+    padding:.5em;
+    border: 1px solid white;
+}
+h1{
+    text-align: center;
+    color:white;
+    padding:.5em 0 1em;
+}
+.input-section{
+    display: flex;
+    gap:1em;
+    justify-content: center;
+    align-items: center;
+}
+input,
+button{
+    width:100%;
+}
+input{
+    padding:.5em 1em ;
+}
+button{
+    cursor: pointer;
+    padding:.6em 1em ;
+    color: white;
+    background-color: rgb(109, 204, 242);
+    border-radius: .2em;
+    border:1px solid white;
+}
+button:hover{
+    background-color: rgb(62, 193, 244);
+}
+.output-section{
+    text-align: center;
+}
+h2{
+    padding:.4em;
+    background-color: white;
+    color:skyblue;
+}
+li{
+    margin:1em 0;
+    color: white;
+}
+#weather{
+    font-size: 1.5rem;
+    font-weight: 600;
+}

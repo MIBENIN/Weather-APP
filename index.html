@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+
+            <section class="intro-section">
+                <h1>☀️🌧️Weather App🌨️☔</h1>
+                <div class="input-section">
+                   <input type="text" name="City" placeholder="Enter the city..." required autofocus id="userSearchInput">
+                   <button type="button" id="btn">Search</button>
+                </div>   
+            </section>
+
+            <section class="output-section">
+                <h2 id="searchedCity">---- ,<span id="country"> ----</span></h2>
+                <ul>
+                    <li>Weather: <span id="weather">----</span></li>
+                    <li>Temp: <span id="temp">----</span> deg</li>
+                    <li>Max Temp: <span id="maxTemp">----</span> deg</li>
+                    <li>Min Temp: <span id="minTemp">----</span> deg</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
